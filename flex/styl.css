@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* dsplay flex es para acomodar los recuadros en horzontal y flex-wrap: wrap es parq cuando la
+pantalla se aga mas chica los recuadros se acoplen*/
+
+/*el justfy-conter: center; en para sentrar las cajas pero con dferente medida de espaci
+pero al contrario justify: evenly las centra pero con medida por igual*/
+
+/* el ALIGN-ITEMS: CENTER; es para alinear en el centro sin hacer tantos calculos*/
+.contener {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+/* flex-basis: 10rem; & flex-grow: 1; son para que los cudros se vallan acomodando
+uno abajo del otro dependiendo del espacoi*/
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: blue;
+}
+.box2{
+  background-color: blueviolet; 
+}
+.box3{
+    background-color: brown;
+}
+.box4{
+    background-color: chartreuse;
+}
+.box5{
+    background-color: gold;
+}
+.box6{
+   background-color: deeppink; 
+}

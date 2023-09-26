@@ -10,7 +10,7 @@ html {
     font-size: 62.5%;
 }
 
-/* Etiquetas del header */
+/* encabezmiento y Etiquetas del header */
 header {
     background-color: rgb(226, 43, 226);
 }
@@ -71,7 +71,7 @@ p {
     border-radius: 10px;
 }
 
-/* Etiquetas del footer */
+/* pie de pagina y Etiquetas del footer */
 
 footer {
     background-color: rgb(53, 30, 82);
